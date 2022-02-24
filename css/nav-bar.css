@@ -1,0 +1,87 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(121, 121, 121, 0.2);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link 5 {
+  color: #2f563e;
+}
+.nav__btn a {
+  position: relative;
+}
+.nav__notification {
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+.nav__elipsisdot {
+  display: block;
+  background-color: var(--red);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: 30px;
+}
+.nav__geardot {
+  background-color: var(--red);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  top: -6px;
+  right: -2px;
+  opacity: 1;
+}
+.nav__drivedot {
+  background-color: var(--red);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  top: -6px;
+  right: 15px;
+  opacity: 1;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(180deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes appearBtn {
+  from {
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.nav__btn {
+  animation-delay: 2s;
+  animation: appearBtn 1s ease-in-out forwards;
+  opacity: 0;
+  transform: translateY(50px);
+}

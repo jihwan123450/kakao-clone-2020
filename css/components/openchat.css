@@ -1,0 +1,44 @@
+.openchat__header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 10px var(--horizontal-space);
+  color: var(--gray);
+}
+.openchat__post {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px var(--horizontal-space);
+  padding-bottom: 20px;
+  border-bottom: var(--sub-border);
+  align-items: center;
+}
+.openchat__post-title__title {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.openchat__post-title__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 3px;
+  color: var(--gray);
+}
+.openchat__post-title__status {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--gray);
+}
+.openchat__post-title__status1 {
+  color: var(--pink);
+}
+.openchat_previewimg {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+}
+.openchat_statusimg {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}

@@ -1,0 +1,16 @@
+:root {
+  --yellow: #fae100;
+  --blue: #4b4dff;
+  --red: #ff6229;
+  --white: #ffe4da;
+  --pink: #ff7bcc;
+  --gray: #9d9d9d;
+  --gray2: #f7f7f7;
+  --background-color: #abc1d1;
+  --horizontal-space: 15px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.4);
+  --sub-border: 1px solid var(--gray2);
+  --chat-namesize: 11px;
+  --chat-chatsize: 13px;
+  --chat-namecol: #657078;
+}

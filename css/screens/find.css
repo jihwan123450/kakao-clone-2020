@@ -1,0 +1,59 @@
+.find-mainicons {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  margin: 40px var(--horizontal-space);
+}
+
+.find-mainicons__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.find-mainicons__icons i {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.find-mainicons__icons span {
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+.find-mainicons__2 {
+  display: flex;
+  align-items: center;
+  margin: 40px var(--horizontal-space);
+}
+.find-mainicons__2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+.find-mainicons__2icons i {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.find-mainicons__2icons span {
+  font-size: 15px;
+  font-weight: 600;
+}
+.find-main__recommended {
+  margin: 0px var(--horizontal-space);
+  padding-top: 15px;
+  border-top: var(--main-border);
+  opacity: 0.7;
+  font-size: 12px;
+}
+.find-main__recommendedlist {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: var(--main-border);
+  justify-content: center;
+  align-content: center;
+  font-size: 15px;
+}
